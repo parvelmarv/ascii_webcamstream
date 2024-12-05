@@ -27,9 +27,6 @@ You need to configure your system’s environment variables to make sure OpenCV 
 
 #### Windows:
 - Open the **System Properties** window (Windows + Pause/Break → Advanced System Settings → Environment Variables).
-- Under **System variables**, add the following:
-  - **Variable Name**: `OPENCV_DIR`
-  - **Variable Value**: Path to your OpenCV folder (e.g., `C:\opencv\build`)
 
 - Edit the **Path** variable in **System variables** and add:
   - `C:\opencv\build\x64\vc15\bin` (Update with the correct path where OpenCV was installed).
