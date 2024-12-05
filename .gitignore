@@ -1,0 +1,24 @@
+# Ignore build directories
+build/
+out/
+bin/
+obj/
+
+# Ignore executables and temporary files
+*.exe
+*.dll
+*.o
+*.a
+*.so
+*.log
+*.tmp
+*.pdb
+*.db
+
+# Ignore IDE-specific files
+*.user
+*.suo
+*.ncb
+.vscode/
+.idea/
+.DS_Store
